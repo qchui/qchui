@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    注册页面
+{% endblock %}
+
+{% block head %}
+   <script src="/media/js/jquery-1.11.3.js"></script>
+{% endblock %}
+
+{% block main %}
+    <form method="post" action="/user/register">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" onblur="checkUname(this.value)" id="exampleInputEmail1" placeholder="Email" name="uname">
+            <span id="aspan"></span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control"   id="exampleInputPassword1"
+                   placeholder="Password" name="pwd">
+        </div>
+        <div>
+
+        </div>
+
+        <button type="submit" class="btn btn-default">注册</button>
+    </form>
+{% endblock %}
+
+{% block footer %}
+    <script>
+        function checkUname(uname) {
+            var flag = true;
+            $.ajax({
+                url: '/user/checkUname/',
+                type: 'GET',
+                async: false,
+                data: {'uname': uname},
+                success: function (result) {
+                    var cflag=result.flag
+                    if (cflag){
+                        flag=false;
+                        $('#span').html('用户名已存在')
+                    }
+                }
+            });
+            return flag
+        }
+    </script>
+{% endblock %}

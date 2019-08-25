@@ -1,0 +1,146 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    商品详情页
+{% endblock %}
+
+{% block head %}
+ <link rel="stylesheet" href="/media/css/detail.css">
+ <script src="/media/js/jquery-1.11.3.js"></script>
+{% endblock %}
+
+{% block main %}
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="bread-item">
+                        <a href="/">首页</a>
+                    </li>
+
+                    <li class="bread-item">
+                        <a href="/categroy/{{ goods.categroy_id }}">{{ goods.categroy.cname }}</a>
+                    </li>
+
+                    <li class="bread-item">
+                        <a href="javascript:void(0)">{{ goods.gname }}</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- detail-content -->
+<div>
+        <div class="img">
+            <img src="/media/{{ goods.getGImg }}">
+        </div>
+
+        <div class="info">
+            <h3>{{ goods.gdesc }}</h3>
+            <div class="price">
+
+                <p class="bic">原价￥{{ goods.oldprice }}</p>
+            </div>
+            <div class="sale">
+
+                <p class="bic">特卖<i>￥</i>{{ goods.price }}</p>
+            </div>
+        </div>
+
+        <div class="color">
+            <div class="minImgList">
+            <p>颜色：</p>
+                {% for good in goods.getColor %}
+                    <label>
+                        <input type="radio"  value="{{ good.id }}" name="color"/>
+                        <img src="/media/{{ good.colorurl }}" width="30px" height="30px">
+                    </label>
+
+                {% endfor %}
+            </div>
+
+        </div>
+
+        <div class="size">
+            <p>尺码：</p>
+            <div class="sizeList">
+                {% for size in goods.getSize %}
+
+                    <label>
+                        <input type="radio" value="{{ size.id }}" name="size">{{ size.sname }}
+                    </label>
+
+                {% endfor %}
+            </div>
+
+        </div>
+
+        <form class="size" action="/cart/" method="post" >
+            {% csrf_token %}
+            <input type="hidden" name="colorid" >
+            <input type="hidden" name="goodsid" value="{{ goods.id }}">
+            <input type="hidden" name="sizeid" >
+            <input type="hidden" name="count">
+            <input type="hidden" name="flag" value="add">
+            <input name="count" placeholder="购买数量">
+            <button class="male" onclick="gocart()">单独购买</button>
+        </form>
+
+            <button class="male" onclick="gocart()">单独购买</button>
+
+        <div class="exhibition">
+
+            <p>展示：</p>
+            <div class="exhibition-model">
+                {% for gdname,gdurlist in goods.getDetail.items %}
+                    <p>{{ gdname }}</p>
+                    <div class="line">
+                        {% for gdurl in gdurlist %}
+                            <img src="/media/color/{{ gdurl }}" >
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            </div>
+
+        </div>
+</div>
+
+<div>
+    <h2>推荐</h2>
+    <div class="goods-content">
+        {% for recommend in recommendList  %}
+            <div class="good">
+                <a href="{{ recommend.id }}">
+
+                    <img src="/media/{{ recommend.getGImg }}">
+
+                </a>
+            <p>{{ recommend.gname }}</p>
+            </div>
+            <div class="price">
+
+                <p class="bic">原价￥{{ recommend.oldprice }}</p>
+            </div>
+
+            <div class="sale">
+
+                <p class="bic">特卖<i>￥</i>{{ recommend.price }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
+
+{% block footer %}
+    <script>
+        function gocart(){
+        $('form').children('input[name="colorid"]').val($("input[name='color']:checked").val());
+        $('form').children('input[name="sizeid"]').val($("input[name='size']:checked").val());
+      }
+    </script>
+{% endblock %}

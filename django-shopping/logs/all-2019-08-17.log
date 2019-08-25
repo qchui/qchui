@@ -1,0 +1,643 @@
+[2019-08-17 17:55:12,296] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 17:55:21,044] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 162276
+[2019-08-17 17:55:23,908] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleUserLoginGiant/userlogin.js
+[2019-08-17 17:55:23,909] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleUserLoginGiant/userlogin.js HTTP/1.1" 404 2291
+[2019-08-17 17:55:23,982] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleSearchGiant/searchGiant.js
+[2019-08-17 17:55:23,983] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleSearchGiant/searchGiant.js HTTP/1.1" 404 2288
+[2019-08-17 17:55:23,990] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleGridGiant/modulegrid.js
+[2019-08-17 17:55:23,990] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleGridGiant/modulegrid.js HTTP/1.1" 404 2279
+[2019-08-17 17:55:24,098] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleNavGiant/menu.js
+[2019-08-17 17:55:24,098] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleNavGiant/menu.js HTTP/1.1" 404 2258
+[2019-08-17 17:55:24,117] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleCommonClsGiant/commoncls.js
+[2019-08-17 17:55:24,117] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleCommonClsGiant/commoncls.js HTTP/1.1" 404 2291
+[2019-08-17 17:55:24,123] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleSlideGiant/commonSlide.js
+[2019-08-17 17:55:24,124] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleSlideGiant/commonSlide.js HTTP/1.1" 404 2285
+[2019-08-17 17:55:24,240] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleProductListGiant/productlist.js
+[2019-08-17 17:55:24,241] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleProductListGiant/productlist.js HTTP/1.1" 404 2303
+[2019-08-17 17:55:25,482] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/loading2.gif
+[2019-08-17 17:55:25,484] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/loading2.gif HTTP/1.1" 404 2207
+[2019-08-17 17:55:25,492] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/imgbg.png
+[2019-08-17 17:55:25,493] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/imgbg.png HTTP/1.1" 404 2198
+[2019-08-17 17:55:25,496] [log.py:228] [log:log_response] [WARNING]- Not Found: /index.php
+[2019-08-17 17:55:25,497] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /index.php?c=Front/Count&Referer=&Width=1366&Height=768&Page=/ HTTP/1.1" 404 2245
+[2019-08-17 17:55:25,507] [log.py:228] [log:log_response] [WARNING]- Not Found: /share/floaters.js
+[2019-08-17 17:55:25,508] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /share/floaters.js HTTP/1.1" 404 2201
+[2019-08-17 17:55:26,162] [log.py:228] [log:log_response] [WARNING]- Not Found: /share/jquery-ui-css/ui-lightness/jquery-ui-1.10.2.custom.min.css
+[2019-08-17 17:55:26,163] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /share/jquery-ui-css/ui-lightness/jquery-ui-1.10.2.custom.min.css HTTP/1.1" 404 2342
+[2019-08-17 17:55:26,198] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2019-08-17 17:55:26,199] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2183
+[2019-08-17 17:55:26,201] [log.py:228] [log:log_response] [WARNING]- Not Found: /scripts/bootstrap/bootbox.min.js
+[2019-08-17 17:55:26,201] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /scripts/bootstrap/bootbox.min.js HTTP/1.1" 404 2246
+[2019-08-17 17:55:31,422] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2019-08-17 17:55:32,470] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1821
+[2019-08-17 17:55:33,292] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2019-08-17 17:55:33,293] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[2019-08-17 17:55:33,293] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2019-08-17 17:55:33,351] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2019-08-17 17:55:33,643] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2019-08-17 17:55:33,646] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2019-08-17 17:55:39,889] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2019-08-17 17:55:40,059] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6345
+[2019-08-17 17:55:40,189] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2019-08-17 17:55:40,214] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[2019-08-17 17:55:40,217] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2019-08-17 17:55:40,218] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2019-08-17 17:55:44,444] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/ HTTP/1.1" 200 3185
+[2019-08-17 17:55:44,463] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[2019-08-17 17:55:44,524] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2019-08-17 17:55:44,524] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 7099
+[2019-08-17 17:55:44,540] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+[2019-08-17 17:55:44,540] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[2019-08-17 17:55:44,557] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+[2019-08-17 17:55:44,579] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271817
+[2019-08-17 17:55:44,624] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[2019-08-17 17:55:44,643] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 17:55:44,660] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2019-08-17 17:55:44,724] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2019-08-17 17:55:47,458] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/add/ HTTP/1.1" 200 4002
+[2019-08-17 17:55:47,484] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[2019-08-17 17:55:47,484] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2019-08-17 17:55:47,484] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+[2019-08-17 17:55:47,537] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[2019-08-17 17:55:47,555] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 17:56:14,699] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/categroy/add/ HTTP/1.1" 302 0
+[2019-08-17 17:56:14,826] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/ HTTP/1.1" 200 4552
+[2019-08-17 17:56:14,910] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 17:56:14,986] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2019-08-17 17:56:18,617] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/1/change/ HTTP/1.1" 200 4229
+[2019-08-17 17:56:18,661] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 17:56:20,465] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/ HTTP/1.1" 200 4370
+[2019-08-17 17:56:21,468] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/add/ HTTP/1.1" 200 4002
+[2019-08-17 17:56:22,765] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/ HTTP/1.1" 200 4370
+[2019-08-17 17:56:25,157] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6680
+[2019-08-17 17:56:26,622] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/color/ HTTP/1.1" 200 3164
+[2019-08-17 17:56:26,670] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 17:56:28,574] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/color/add/ HTTP/1.1" 200 4503
+[2019-08-17 17:56:28,699] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:09:56,827] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/color/add/ HTTP/1.1" 302 0
+[2019-08-17 20:09:57,391] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/color/ HTTP/1.1" 200 4510
+[2019-08-17 20:09:57,584] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:10:00,866] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/color/add/ HTTP/1.1" 200 4503
+[2019-08-17 20:10:00,902] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:10:12,966] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/color/add/ HTTP/1.1" 302 0
+[2019-08-17 20:10:13,053] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/color/ HTTP/1.1" 200 4738
+[2019-08-17 20:10:13,141] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:10:15,701] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/color/add/ HTTP/1.1" 200 4503
+[2019-08-17 20:10:16,829] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/color/ HTTP/1.1" 200 4565
+[2019-08-17 20:10:18,485] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/color/add/ HTTP/1.1" 200 4503
+[2019-08-17 20:10:19,490] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/color/ HTTP/1.1" 200 4565
+[2019-08-17 20:10:20,374] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 7262
+[2019-08-17 20:10:23,089] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetailname/ HTTP/1.1" 200 3244
+[2019-08-17 20:10:23,400] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:10:26,550] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 7262
+[2019-08-17 20:10:29,214] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/add/ HTTP/1.1" 200 4002
+[2019-08-17 20:10:29,259] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:10:50,338] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/categroy/add/ HTTP/1.1" 302 0
+[2019-08-17 20:10:50,447] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/ HTTP/1.1" 200 4786
+[2019-08-17 20:10:50,531] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:10:52,219] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/add/ HTTP/1.1" 200 4002
+[2019-08-17 20:10:53,744] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 7562
+[2019-08-17 20:10:55,410] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetailname/ HTTP/1.1" 200 3244
+[2019-08-17 20:10:55,430] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:10:57,100] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetailname/add/ HTTP/1.1" 200 4071
+[2019-08-17 20:10:57,122] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:11:42,532] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/goodsdetailname/add/ HTTP/1.1" 302 0
+[2019-08-17 20:11:43,176] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/goodsdetailname/add/ HTTP/1.1" 302 0
+[2019-08-17 20:11:43,385] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetailname/ HTTP/1.1" 200 4914
+[2019-08-17 20:11:43,508] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:11:45,198] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetailname/add/ HTTP/1.1" 200 4071
+[2019-08-17 20:11:45,448] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetailname/ HTTP/1.1" 200 4709
+[2019-08-17 20:11:46,786] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8208
+[2019-08-17 20:11:49,681] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetail/ HTTP/1.1" 200 3211
+[2019-08-17 20:11:49,721] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:11:51,270] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetail/add/ HTTP/1.1" 200 6927
+[2019-08-17 20:11:51,334] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:11:51,361] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[2019-08-17 20:12:07,717] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetailname/add/?_to_field=id&_popup=1 HTTP/1.1" 200 3096
+[2019-08-17 20:12:07,793] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:12:18,724] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/goodsdetail/add/ HTTP/1.1" 200 7067
+[2019-08-17 20:12:18,777] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:12:21,253] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetail/add/ HTTP/1.1" 200 6927
+[2019-08-17 20:12:21,981] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetail/ HTTP/1.1" 200 3211
+[2019-08-17 20:12:22,564] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8208
+[2019-08-17 20:12:29,485] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/add/ HTTP/1.1" 200 6875
+[2019-08-17 20:12:29,549] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:14:07,849] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/goods/add/ HTTP/1.1" 302 0
+[2019-08-17 20:14:07,909] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/ HTTP/1.1" 200 4510
+[2019-08-17 20:14:07,980] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:14:10,532] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/add/ HTTP/1.1" 200 6875
+[2019-08-17 20:14:10,558] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:14:36,773] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/goods/add/ HTTP/1.1" 302 0
+[2019-08-17 20:14:36,877] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/ HTTP/1.1" 200 4738
+[2019-08-17 20:14:36,983] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:14:39,824] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/add/ HTTP/1.1" 200 6875
+[2019-08-17 20:14:41,320] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/ HTTP/1.1" 200 4565
+[2019-08-17 20:14:42,761] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/add/ HTTP/1.1" 200 6875
+[2019-08-17 20:14:43,725] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 8790
+[2019-08-17 20:14:45,991] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetail/ HTTP/1.1" 200 3211
+[2019-08-17 20:14:46,246] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:14:47,872] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetail/add/ HTTP/1.1" 200 7021
+[2019-08-17 20:14:47,898] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:14:59,012] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/goodsdetail/add/ HTTP/1.1" 302 0
+[2019-08-17 20:14:59,052] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetail/ HTTP/1.1" 200 4602
+[2019-08-17 20:14:59,152] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:15:02,164] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetail/add/ HTTP/1.1" 200 7021
+[2019-08-17 20:15:03,497] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goodsdetail/ HTTP/1.1" 200 4410
+[2019-08-17 20:15:04,243] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9100
+[2019-08-17 20:15:06,093] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/inventory/ HTTP/1.1" 200 3192
+[2019-08-17 20:15:06,115] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:15:07,560] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/inventory/add/ HTTP/1.1" 200 8226
+[2019-08-17 20:15:07,599] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:15:19,213] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/size/add/?_to_field=id&_popup=1 HTTP/1.1" 200 3032
+[2019-08-17 20:15:19,265] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:15:22,920] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/size/add/?_to_field=id&_popup=1 HTTP/1.1" 200 372
+[2019-08-17 20:15:22,972] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/popup_response.js HTTP/1.1" 200 569
+[2019-08-17 20:15:25,439] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/inventory/add/ HTTP/1.1" 302 0
+[2019-08-17 20:15:25,526] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/inventory/ HTTP/1.1" 200 4566
+[2019-08-17 20:15:25,616] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:15:27,684] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/inventory/add/ HTTP/1.1" 200 8272
+[2019-08-17 20:15:27,945] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/inventory/ HTTP/1.1" 200 4381
+[2019-08-17 20:15:28,632] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9391
+[2019-08-17 20:15:31,371] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/size/ HTTP/1.1" 200 4326
+[2019-08-17 20:15:31,396] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 20:20:35,050] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/untitled3/settings.py changed, reloading.
+[2019-08-17 20:20:37,873] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 20:51:36,602] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 20:51:39,453] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3074
+[2019-08-17 20:51:39,601] [log.py:228] [log:log_response] [WARNING]- Not Found: /...
+[2019-08-17 20:51:39,601] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /... HTTP/1.1" 404 2159
+[2019-08-17 20:53:26,844] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3081
+[2019-08-17 20:53:30,806] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3081
+[2019-08-17 20:57:06,467] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3069
+[2019-08-17 20:57:56,447] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3293
+[2019-08-17 20:57:56,587] [log.py:228] [log:log_response] [WARNING]- Not Found: /...
+[2019-08-17 20:57:56,587] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /... HTTP/1.1" 404 2159
+[2019-08-17 21:01:38,391] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3083
+[2019-08-17 21:01:38,415] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/a.jpg
+[2019-08-17 21:01:38,416] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/a.jpg HTTP/1.1" 404 2183
+[2019-08-17 21:01:42,194] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3083
+[2019-08-17 21:01:42,216] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/a.jpg
+[2019-08-17 21:01:42,217] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/a.jpg HTTP/1.1" 404 2183
+[2019-08-17 21:02:32,145] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3093
+[2019-08-17 21:02:32,299] [log.py:228] [log:log_response] [WARNING]- Not Found: /untitled3/media/a.jpg
+[2019-08-17 21:02:32,300] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /untitled3/media/a.jpg HTTP/1.1" 404 2213
+[2019-08-17 21:02:35,864] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3093
+[2019-08-17 21:02:35,896] [log.py:228] [log:log_response] [WARNING]- Not Found: /untitled3/media/a.jpg
+[2019-08-17 21:02:35,897] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /untitled3/media/a.jpg HTTP/1.1" 404 2213
+[2019-08-17 21:02:42,862] [log.py:228] [log:log_response] [WARNING]- Not Found: /untitled3/media/a.jpg
+[2019-08-17 21:02:42,863] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /untitled3/media/a.jpg HTTP/1.1" 404 2213
+[2019-08-17 21:02:54,999] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/a.jpg
+[2019-08-17 21:02:55,000] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/a.jpg HTTP/1.1" 404 2183
+[2019-08-17 21:05:59,964] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:06:08,042] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3093
+[2019-08-17 21:06:08,602] [log.py:228] [log:log_response] [WARNING]- Not Found: /untitled3/media/a.jpg
+[2019-08-17 21:06:08,603] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /untitled3/media/a.jpg HTTP/1.1" 404 2213
+[2019-08-17 21:06:24,125] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /? HTTP/1.1" 200 3093
+[2019-08-17 21:06:24,147] [log.py:228] [log:log_response] [WARNING]- Not Found: /untitled3/media/a.jpg
+[2019-08-17 21:06:24,147] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /untitled3/media/a.jpg HTTP/1.1" 404 2213
+[2019-08-17 21:06:53,906] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3076
+[2019-08-17 21:06:53,932] [log.py:228] [log:log_response] [WARNING]- Not Found: /a.jpg
+[2019-08-17 21:06:53,932] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /a.jpg HTTP/1.1" 404 2165
+[2019-08-17 21:07:33,916] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3074
+[2019-08-17 21:07:33,945] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/a.jpg
+[2019-08-17 21:07:33,946] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/a.jpg HTTP/1.1" 404 2183
+[2019-08-17 21:08:55,179] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3074
+[2019-08-17 21:08:55,204] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/a.jpg
+[2019-08-17 21:08:55,205] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/a.jpg HTTP/1.1" 404 2183
+[2019-08-17 21:09:03,819] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /? HTTP/1.1" 200 3074
+[2019-08-17 21:09:03,871] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/a.jpg
+[2019-08-17 21:09:03,872] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/a.jpg HTTP/1.1" 404 2183
+[2019-08-17 21:13:40,743] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/untitled3/settings.py changed, reloading.
+[2019-08-17 21:13:41,634] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:15:08,886] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/untitled3/settings.py changed, reloading.
+[2019-08-17 21:15:09,219] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:16:39,480] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/untitled3/urls.py changed, reloading.
+[2019-08-17 21:16:39,849] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:17:44,942] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/untitled3/urls.py changed, reloading.
+[2019-08-17 21:17:45,325] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:23:51,051] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:26:02,740] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:26:05,596] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3074
+[2019-08-17 21:26:05,616] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/b.jpg
+[2019-08-17 21:26:05,617] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/b.jpg HTTP/1.1" 404 1781
+[2019-08-17 21:32:13,943] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:32:19,631] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+[2019-08-17 21:32:19,632] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 76817
+[2019-08-17 21:32:26,463] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+[2019-08-17 21:32:26,463] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 76952
+[2019-08-17 21:34:13,859] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:34:17,422] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3069
+[2019-08-17 21:34:17,456] [log.py:228] [log:log_response] [WARNING]- Not Found: /a.jpg
+[2019-08-17 21:34:17,456] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /a.jpg HTTP/1.1" 404 2186
+[2019-08-17 21:34:51,054] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:34:54,885] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3075
+[2019-08-17 21:34:55,030] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/a.jpg HTTP/1.1" 404 1639
+[2019-08-17 21:35:27,136] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/a.jpg HTTP/1.1" 404 1639
+[2019-08-17 21:38:47,189] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:38:51,100] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/a.jpg HTTP/1.1" 404 1639
+[2019-08-17 21:38:55,080] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3067
+[2019-08-17 21:38:55,103] [log.py:228] [log:log_response] [WARNING]- Not Found: /a.jpg
+[2019-08-17 21:38:55,105] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /a.jpg HTTP/1.1" 404 2186
+[2019-08-17 21:40:45,880] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:40:58,526] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3067
+[2019-08-17 21:40:58,547] [log.py:228] [log:log_response] [WARNING]- Not Found: /a.jpg
+[2019-08-17 21:40:58,548] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /a.jpg HTTP/1.1" 404 2186
+[2019-08-17 21:41:26,487] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:41:28,498] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2812
+[2019-08-17 21:41:28,523] [log.py:228] [log:log_response] [WARNING]- Not Found: /a.jpg
+[2019-08-17 21:41:28,524] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /a.jpg HTTP/1.1" 404 2186
+[2019-08-17 21:41:45,005] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /? HTTP/1.1" 200 2812
+[2019-08-17 21:41:45,027] [log.py:228] [log:log_response] [WARNING]- Not Found: /a.jpg
+[2019-08-17 21:41:45,028] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /a.jpg HTTP/1.1" 404 2186
+[2019-08-17 21:41:48,908] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2812
+[2019-08-17 21:41:48,944] [log.py:228] [log:log_response] [WARNING]- Not Found: /a.jpg
+[2019-08-17 21:41:48,944] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /a.jpg HTTP/1.1" 404 2186
+[2019-08-17 21:42:40,833] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:42:49,044] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2820
+[2019-08-17 21:42:49,073] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/a.jpg HTTP/1.1" 404 1639
+[2019-08-17 21:43:40,700] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2841
+[2019-08-17 21:43:40,736] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/a.jpg HTTP/1.1" 404 1639
+[2019-08-17 21:44:53,142] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:44:55,114] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2842
+[2019-08-17 21:44:55,136] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/a.jpg HTTP/1.1" 404 1639
+[2019-08-17 21:45:11,142] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/a.jpg HTTP/1.1" 404 1639
+[2019-08-17 21:45:31,101] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/a.jpg
+[2019-08-17 21:45:31,101] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/a.jpg HTTP/1.1" 404 1781
+[2019-08-17 21:46:30,632] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2839
+[2019-08-17 21:46:30,656] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/a.jpg HTTP/1.1" 404 1639
+[2019-08-17 21:57:31,369] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 21:57:50,191] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4132
+[2019-08-17 22:02:29,788] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 22:02:34,736] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4232
+[2019-08-17 22:02:35,215] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/a.jpg HTTP/1.1" 404 1639
+[2019-08-17 22:11:17,511] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/goods/views.py changed, reloading.
+[2019-08-17 22:11:17,989] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 22:23:22,328] [log.py:228] [log:log_response] [WARNING]- Not Found: /admin
+[2019-08-17 22:23:22,329] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /admin HTTP/1.1" 404 2186
+[2019-08-17 22:26:23,323] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/goods/views.py changed, reloading.
+[2019-08-17 22:26:23,693] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 22:31:20,585] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/goods/views.py changed, reloading.
+[2019-08-17 22:31:20,965] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 22:39:51,399] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 22:39:54,871] [log.py:228] [log:log_response] [WARNING]- Not Found: /admin
+[2019-08-17 22:39:54,872] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /admin HTTP/1.1" 404 2186
+[2019-08-17 22:39:58,009] [log.py:228] [log:log_response] [WARNING]- Not Found: /admin
+[2019-08-17 22:39:58,010] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /admin HTTP/1.1" 404 2186
+[2019-08-17 22:40:24,298] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2648
+[2019-08-17 22:40:31,046] [log.py:228] [log:log_response] [WARNING]- Not Found: /admin
+[2019-08-17 22:40:31,047] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /admin HTTP/1.1" 404 2186
+[2019-08-17 22:40:37,759] [log.py:228] [log:log_response] [WARNING]- Not Found: /admin
+[2019-08-17 22:40:37,762] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /admin HTTP/1.1" 404 2186
+[2019-08-17 22:41:19,594] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 22:41:23,349] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2648
+[2019-08-17 22:41:27,488] [log.py:228] [log:log_response] [WARNING]- Not Found: /categroy/1
+[2019-08-17 22:41:27,489] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /categroy/1 HTTP/1.1" 404 2201
+[2019-08-17 22:41:29,062] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2648
+[2019-08-17 22:41:36,195] [log.py:228] [log:log_response] [WARNING]- Not Found: /admin
+[2019-08-17 22:41:36,196] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /admin HTTP/1.1" 404 2186
+[2019-08-17 22:42:00,603] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9391
+[2019-08-17 22:42:00,999] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[2019-08-17 22:42:01,000] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[2019-08-17 22:42:01,029] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17944
+[2019-08-17 22:42:01,049] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2019-08-17 22:42:01,145] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2019-08-17 22:42:01,146] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2019-08-17 22:42:01,158] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2019-08-17 22:42:01,159] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2019-08-17 22:42:01,159] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2019-08-17 22:42:20,146] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/add/ HTTP/1.1" 200 4002
+[2019-08-17 22:42:20,176] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2019-08-17 22:42:20,297] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2019-08-17 22:42:20,297] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2019-08-17 22:42:20,298] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2019-08-17 22:42:20,298] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2019-08-17 22:42:20,301] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2019-08-17 22:42:20,307] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2019-08-17 22:42:20,321] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2019-08-17 22:42:20,322] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2019-08-17 22:42:20,322] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2019-08-17 22:42:20,360] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2019-08-17 22:42:20,370] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2019-08-17 22:42:20,383] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 22:42:31,754] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/categroy/add/ HTTP/1.1" 302 0
+[2019-08-17 22:42:31,826] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/ HTTP/1.1" 200 5019
+[2019-08-17 22:42:31,917] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2019-08-17 22:42:31,925] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 22:42:32,023] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[2019-08-17 22:42:32,032] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2019-08-17 22:42:34,166] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/add/ HTTP/1.1" 200 4002
+[2019-08-17 22:42:34,202] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 22:42:43,982] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/categroy/add/ HTTP/1.1" 302 0
+[2019-08-17 22:42:44,209] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/add/ HTTP/1.1" 200 4236
+[2019-08-17 22:42:44,278] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 22:42:53,424] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/categroy/add/ HTTP/1.1" 302 0
+[2019-08-17 22:42:53,543] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/add/ HTTP/1.1" 200 4236
+[2019-08-17 22:42:53,697] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 22:42:59,029] [log.py:228] [log:log_response] [WARNING]- Not Found: /admin
+[2019-08-17 22:42:59,029] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /admin HTTP/1.1" 404 2186
+[2019-08-17 22:43:00,622] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2906
+[2019-08-17 22:56:17,678] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 22:56:22,270] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 3250
+[2019-08-17 22:56:22,291] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /static/color/a.jpg HTTP/1.1" 404 1657
+[2019-08-17 22:56:24,819] [log.py:228] [log:log_response] [WARNING]- Not Found: /categroy/1
+[2019-08-17 22:56:24,819] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /categroy/1 HTTP/1.1" 404 2201
+[2019-08-17 22:56:27,228] [log.py:228] [log:log_response] [WARNING]- Not Found: /categroy/2
+[2019-08-17 22:56:27,229] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /categroy/2 HTTP/1.1" 404 2201
+[2019-08-17 22:57:16,426] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 22:57:18,746] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/goods/views.py", line 15, in get
+    return render(request, 'index.html',{'categorys_list':categroys_list,'goods_list':goods_list})
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "/home/qianchunhui/PycharmProjects/untitled3/goods/models.py", line 22, in getGImg
+    return self.inventory_set.first().color.colorurl
+AttributeError: 'NoneType' object has no attribute 'color'
+[2019-08-17 22:57:18,750] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 192612
+[2019-08-17 22:57:20,667] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/add/ HTTP/1.1" 200 4002
+[2019-08-17 22:57:21,105] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/add/ HTTP/1.1" 200 4002
+[2019-08-17 22:57:26,289] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/goods/views.py", line 15, in get
+    return render(request, 'index.html',{'categorys_list':categroys_list,'goods_list':goods_list})
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "/home/qianchunhui/PycharmProjects/untitled3/goods/models.py", line 22, in getGImg
+    return self.inventory_set.first().color.colorurl
+AttributeError: 'NoneType' object has no attribute 'color'
+[2019-08-17 22:57:26,291] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 192477
+[2019-08-17 22:57:53,597] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/goods/views.py changed, reloading.
+[2019-08-17 22:57:53,932] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 22:58:12,964] [log.py:228] [log:log_response] [WARNING]- Not Found: /admin
+[2019-08-17 22:58:12,965] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /admin HTTP/1.1" 404 2186
+[2019-08-17 22:58:18,786] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9409
+[2019-08-17 22:58:22,952] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/ HTTP/1.1" 200 4565
+[2019-08-17 22:58:23,035] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 22:58:25,328] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/2/change/ HTTP/1.1" 200 7300
+[2019-08-17 22:58:25,377] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 22:58:43,773] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/goods/2/change/ HTTP/1.1" 302 0
+[2019-08-17 22:58:43,824] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/ HTTP/1.1" 200 4738
+[2019-08-17 22:58:43,942] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 22:58:45,505] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/2/change/ HTTP/1.1" 200 7300
+[2019-08-17 22:58:47,268] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/ HTTP/1.1" 200 4565
+[2019-08-17 22:58:49,092] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9380
+[2019-08-17 22:58:51,579] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/ HTTP/1.1" 200 5303
+[2019-08-17 22:58:51,711] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 22:58:54,218] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/1/change/ HTTP/1.1" 200 4229
+[2019-08-17 22:58:54,242] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 22:58:59,599] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/categroy/ HTTP/1.1" 200 5303
+[2019-08-17 23:00:18,747] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9380
+[2019-08-17 23:00:21,060] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/ HTTP/1.1" 200 4565
+[2019-08-17 23:00:21,100] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 23:00:23,225] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/2/change/ HTTP/1.1" 200 7300
+[2019-08-17 23:00:23,254] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 23:00:28,167] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/goods/2/change/ HTTP/1.1" 302 0
+[2019-08-17 23:00:28,222] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/ HTTP/1.1" 200 4738
+[2019-08-17 23:00:28,295] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 23:00:31,141] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/1/change/ HTTP/1.1" 200 7300
+[2019-08-17 23:00:31,185] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 23:00:34,902] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /admin/goods/goods/1/change/ HTTP/1.1" 302 0
+[2019-08-17 23:00:35,039] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/goods/goods/ HTTP/1.1" 200 4738
+[2019-08-17 23:00:35,109] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-17 23:00:42,364] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2909
+[2019-08-17 23:00:47,240] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2909
+[2019-08-17 23:00:55,667] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 23:00:57,987] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/goods/views.py", line 15, in get
+    return render(request, 'index.html',{'categorys_list':categroys_list,'goods_list':goods_list})
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "/home/qianchunhui/PycharmProjects/untitled3/goods/models.py", line 22, in getGImg
+    return self.inventory_set.first().color.colorurl
+AttributeError: 'NoneType' object has no attribute 'color'
+[2019-08-17 23:00:57,992] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 194104
+[2019-08-17 23:01:03,675] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/goods/views.py", line 15, in get
+    return render(request, 'index.html',{'categorys_list':categroys_list,'goods_list':goods_list})
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "/home/qianchunhui/PycharmProjects/untitled3/goods/models.py", line 22, in getGImg
+    return self.inventory_set.first().color.colorurl
+AttributeError: 'NoneType' object has no attribute 'color'
+[2019-08-17 23:01:03,675] [basehttp.py:154] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 194104
+[2019-08-17 23:01:11,750] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/goods/views.py changed, reloading.
+[2019-08-17 23:01:12,112] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-17 23:01:13,443] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 2909

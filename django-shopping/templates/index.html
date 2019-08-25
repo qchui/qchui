@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block title %}
+        首页
+{% endblock %}
+
+{% block head %}
+    <style>
+    .pageCls{
+        font-size: 28px;
+        color:pink;
+
+    }
+    </style>
+{% endblock %}
+
+{% block main %}
+    <!--第二导航栏-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav" >
+          {% for categroy in categorys_list %}
+            <li class="items active"><a href="/categroy/{{ categroy.id }}">{{ categroy.cname }}</a></li>
+          {% endfor %}
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!--商品栏-->
+    {% for good in goods_list %}
+        <a href="/goodsdetails/{{ good.id }}">
+        <img src="/media/{{ good.getGImg }}" >
+        </a>
+        <p class="name">{{ good.gname }}</p>
+        <div class="price">
+            <i>￥</i>
+            <p class="bic">{{ good.oldprice }}</p>
+        </div>
+        <div class="sale">
+            特卖
+            <i>￥</i>
+            <p class="bic">{{ good.price }}</p>
+        </div>
+<div id="pager" style="text-align:center;font-size: 16px;overflow: hidden;margin-top: 10px">
+    {% endfor %}
+    {% if goods_list.has_previous %}
+        <a href="/categroy/{{ currentcid }}/page/{{ goods_list.previous_page_number }}" style="display: inline-block;padding: 5px;margin: 5px">上一页</a>
+    {% endif %}
+
+     {% for page in pagelist %}
+        <a href="/categroy/{{ currentcid }}/page/{{ page }}"  {% if currentnum == page %}class="pageCls" {% endif %}  style="display: inline-block;padding: 5px;margin: 5px">{{ page }}</a>
+     {% endfor %}
+
+
+    {% if goods_list.has_next %}
+        <a href="/categroy/{{ currentcid }}/page/{{ goods_list.next_page_number }}" style="display: inline-block;padding: 5px;margin: 5px">下一页</a>
+    {% endif %}
+</div>
+{% endblock %}

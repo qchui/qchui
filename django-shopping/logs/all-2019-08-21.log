@@ -1,0 +1,456 @@
+[2019-08-21 16:56:34,537] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 16:56:42,662] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4082
+[2019-08-21 16:56:42,745] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/color/w_jd5u1YS.jpg HTTP/1.1" 304 0
+[2019-08-21 16:56:42,991] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2019-08-21 16:56:42,992] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2971
+[2019-08-21 16:56:44,831] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/center HTTP/1.1" 200 3674
+[2019-08-21 16:56:44,914] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/jquery-1.11.3.js HTTP/1.1" 200 284394
+[2019-08-21 16:56:48,022] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/address/ HTTP/1.1" 200 6379
+[2019-08-21 16:56:48,081] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/address.css HTTP/1.1" 304 0
+[2019-08-21 16:56:48,285] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/loadarea/?pid=0 HTTP/1.1" 200 169
+[2019-08-21 16:56:48,296] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/loadarea/?pid=110000 HTTP/1.1" 200 174
+[2019-08-21 16:56:48,345] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/loadarea/?pid=110100 HTTP/1.1" 200 331
+[2019-08-21 16:56:59,753] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/center HTTP/1.1" 200 3674
+[2019-08-21 16:57:59,353] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4082
+[2019-08-21 16:58:00,294] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /goodsdetails/1 HTTP/1.1" 200 6754
+[2019-08-21 16:58:00,322] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/detail.css HTTP/1.1" 304 0
+[2019-08-21 16:58:00,331] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/color/a_F3JKZdZ.jpg HTTP/1.1" 304 0
+[2019-08-21 16:58:00,335] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/color/g_yAzDPMA.jpg HTTP/1.1" 304 0
+[2019-08-21 16:58:05,166] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /cart/ HTTP/1.1" 302 0
+[2019-08-21 16:58:05,210] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 4003
+[2019-08-21 16:58:05,275] [log.py:228] [log:log_response] [WARNING]- Not Found: /cart/media/images/cart/product_normal.png
+[2019-08-21 16:58:05,276] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /cart/media/images/cart/product_normal.png HTTP/1.1" 404 3273
+[2019-08-21 16:58:05,327] [log.py:228] [log:log_response] [WARNING]- Not Found: /cart/media/images/cart/product_simg1.png
+[2019-08-21 16:58:05,327] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /cart/media/images/cart/product_simg1.png HTTP/1.1" 404 3270
+[2019-08-21 16:58:07,887] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 16:58:07,887] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 16:58:08,393] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 16:58:08,393] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 16:58:08,802] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 16:58:08,802] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 16:58:08,969] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 16:58:08,969] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 16:58:09,137] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 16:58:09,138] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 16:58:09,497] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 16:58:09,498] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 16:58:09,673] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 16:58:09,674] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 16:58:10,608] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 16:58:10,609] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 16:58:10,777] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 16:58:10,777] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 16:58:11,161] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 16:58:11,161] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 16:58:11,349] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 16:58:11,350] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:36,952] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:02:41,099] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 4005
+[2019-08-21 17:02:41,120] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/images/cart/product_simg1.png
+[2019-08-21 17:02:41,120] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/images/cart/product_simg1.png HTTP/1.1" 404 1853
+[2019-08-21 17:02:44,365] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:44,366] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:44,696] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:44,697] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:45,039] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:45,040] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:45,206] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:45,206] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:45,386] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:45,386] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:46,087] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:46,088] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:46,255] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:46,255] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:46,429] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:46,430] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:46,618] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:46,618] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:46,765] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:46,766] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:46,934] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:46,935] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:47,094] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:47,095] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:47,256] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:47,257] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:48,687] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:48,688] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:48,856] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:48,856] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:49,030] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:49,031] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:49,191] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:49,191] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:49,368] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:49,368] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:50,641] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:50,641] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:50,815] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:50,816] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:51,559] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:51,560] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:51,719] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:51,720] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:51,895] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:51,895] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:52,094] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:52,095] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:52,454] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:52,455] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:53,232] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:53,233] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:53,409] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:53,409] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:53,592] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:53,592] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:53,744] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:53,745] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:02:53,934] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:02:53,934] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:02:54,102] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:02:54,103] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:04:20,844] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:04:21,785] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 4005
+[2019-08-21 17:04:21,810] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/images/cart/product_simg1.png
+[2019-08-21 17:04:21,811] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/images/cart/product_simg1.png HTTP/1.1" 404 1853
+[2019-08-21 17:04:24,275] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:04:24,275] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:04:24,935] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:04:24,936] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:04:26,134] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:04:26,135] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:04:26,292] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:04:26,293] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:05:42,101] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:05:43,956] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 4005
+[2019-08-21 17:05:43,975] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/images/cart/product_simg1.png
+[2019-08-21 17:05:43,976] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/images/cart/product_simg1.png HTTP/1.1" 404 1853
+[2019-08-21 17:05:45,717] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:05:45,717] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:05:46,349] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:05:46,350] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:05:46,753] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:05:46,754] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:05:46,924] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:05:46,925] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:05:47,101] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:05:47,101] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:05:47,279] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:05:47,280] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:05:47,477] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:05:47,478] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:05:47,653] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:05:47,654] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:05:47,820] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:05:47,821] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:05:48,005] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:05:48,006] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:05:48,183] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:05:48,184] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:05:48,357] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:05:48,357] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:05:48,533] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:05:48,534] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:05:48,703] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:05:48,703] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:05:48,885] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:05:48,885] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:05:49,053] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:05:49,054] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:05:49,238] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:05:49,238] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:05:49,430] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_normal.png
+[2019-08-21 17:05:49,432] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_normal.png HTTP/1.1" 404 3028
+[2019-08-21 17:05:49,667] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/cart/product_true.png
+[2019-08-21 17:05:49,668] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/cart/product_true.png HTTP/1.1" 404 3022
+[2019-08-21 17:07:15,838] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:07:17,868] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 4005
+[2019-08-21 17:07:17,901] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 200 3285
+[2019-08-21 17:07:17,908] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/images/cart/product_simg1.png
+[2019-08-21 17:07:17,909] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/images/cart/product_simg1.png HTTP/1.1" 404 1853
+[2019-08-21 17:07:17,911] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/jquery-1.11.3.js HTTP/1.1" 200 284394
+[2019-08-21 17:07:18,014] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/base.css HTTP/1.1" 200 311
+[2019-08-21 17:07:18,015] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/cart.css HTTP/1.1" 200 2840
+[2019-08-21 17:07:18,016] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:07:23,339] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_true.png
+[2019-08-21 17:07:23,339] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_true.png HTTP/1.1" 404 3040
+[2019-08-21 17:07:23,460] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:07:25,046] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:07:25,051] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_normal.png
+[2019-08-21 17:07:25,053] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_normal.png HTTP/1.1" 404 3046
+[2019-08-21 17:07:25,896] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_true.png
+[2019-08-21 17:07:25,897] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_true.png HTTP/1.1" 404 3040
+[2019-08-21 17:07:25,897] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:07:27,137] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_normal.png
+[2019-08-21 17:07:27,138] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_normal.png HTTP/1.1" 404 3046
+[2019-08-21 17:07:27,138] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:07:27,873] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:07:27,880] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_true.png
+[2019-08-21 17:07:27,880] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_true.png HTTP/1.1" 404 3040
+[2019-08-21 17:07:29,367] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_normal.png
+[2019-08-21 17:07:29,368] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_normal.png HTTP/1.1" 404 3046
+[2019-08-21 17:07:29,368] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:07:30,585] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_true.png
+[2019-08-21 17:07:30,586] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:07:30,586] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_true.png HTTP/1.1" 404 3040
+[2019-08-21 17:07:31,425] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:07:31,433] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_normal.png
+[2019-08-21 17:07:31,434] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_normal.png HTTP/1.1" 404 3046
+[2019-08-21 17:07:31,865] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:07:31,871] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_true.png
+[2019-08-21 17:07:31,872] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_true.png HTTP/1.1" 404 3040
+[2019-08-21 17:07:32,304] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:07:32,313] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_normal.png
+[2019-08-21 17:07:32,313] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_normal.png HTTP/1.1" 404 3046
+[2019-08-21 17:07:34,504] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_true.png
+[2019-08-21 17:07:34,505] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_true.png HTTP/1.1" 404 3040
+[2019-08-21 17:07:34,505] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:08:45,379] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:08:46,256] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 4005
+[2019-08-21 17:08:46,276] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/cart.css HTTP/1.1" 200 2840
+[2019-08-21 17:08:46,277] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/base.css HTTP/1.1" 200 311
+[2019-08-21 17:08:46,289] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 200 3284
+[2019-08-21 17:08:46,290] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:08:46,291] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/jquery-1.11.3.js HTTP/1.1" 200 284394
+[2019-08-21 17:08:46,305] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/images/cart/product_simg1.png
+[2019-08-21 17:08:46,305] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/images/cart/product_simg1.png HTTP/1.1" 404 1853
+[2019-08-21 17:08:47,895] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_true.png
+[2019-08-21 17:08:47,896] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:08:47,896] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_true.png HTTP/1.1" 404 3040
+[2019-08-21 17:08:48,206] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:08:48,208] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_normal.png
+[2019-08-21 17:08:48,209] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_normal.png HTTP/1.1" 404 3046
+[2019-08-21 17:08:48,636] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:08:48,638] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_true.png
+[2019-08-21 17:08:48,639] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_true.png HTTP/1.1" 404 3040
+[2019-08-21 17:08:49,031] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_normal.png
+[2019-08-21 17:08:49,032] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_normal.png HTTP/1.1" 404 3046
+[2019-08-21 17:08:49,032] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:08:58,462] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:09:00,493] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 4005
+[2019-08-21 17:09:00,513] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/cart.css HTTP/1.1" 200 2840
+[2019-08-21 17:09:00,514] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/base.css HTTP/1.1" 200 311
+[2019-08-21 17:09:00,521] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/jquery-1.11.3.js HTTP/1.1" 200 284394
+[2019-08-21 17:09:00,552] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 200 3284
+[2019-08-21 17:09:00,556] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:09:00,559] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/images/cart/product_simg1.png
+[2019-08-21 17:09:00,559] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/images/cart/product_simg1.png HTTP/1.1" 404 1853
+[2019-08-21 17:09:02,231] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_true.png
+[2019-08-21 17:09:02,231] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_true.png HTTP/1.1" 404 3040
+[2019-08-21 17:09:02,232] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:09:43,261] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:09:45,074] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 4005
+[2019-08-21 17:09:45,102] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/base.css HTTP/1.1" 200 311
+[2019-08-21 17:09:45,103] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/cart.css HTTP/1.1" 200 2840
+[2019-08-21 17:09:45,104] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/jquery-1.11.3.js HTTP/1.1" 200 284394
+[2019-08-21 17:09:45,124] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 200 3284
+[2019-08-21 17:09:45,129] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:09:45,136] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/images/cart/product_simg1.png
+[2019-08-21 17:09:45,137] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/images/cart/product_simg1.png HTTP/1.1" 404 1853
+[2019-08-21 17:09:46,636] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:09:46,639] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_true.png
+[2019-08-21 17:09:46,640] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_true.png HTTP/1.1" 404 3040
+[2019-08-21 17:09:47,537] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:09:48,000] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:09:48,007] [log.py:228] [log:log_response] [WARNING]- Not Found: /meida/images/cart/product_true.png
+[2019-08-21 17:09:48,008] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /meida/images/cart/product_true.png HTTP/1.1" 404 3040
+[2019-08-21 17:09:48,376] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:10:11,958] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:10:13,118] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 4005
+[2019-08-21 17:10:13,144] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/base.css HTTP/1.1" 200 311
+[2019-08-21 17:10:13,145] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/cart.css HTTP/1.1" 200 2840
+[2019-08-21 17:10:13,161] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:10:13,164] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/jquery-1.11.3.js HTTP/1.1" 200 284394
+[2019-08-21 17:10:13,190] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 200 3284
+[2019-08-21 17:10:13,195] [log.py:228] [log:log_response] [WARNING]- Not Found: /media/images/cart/product_simg1.png
+[2019-08-21 17:10:13,195] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /media/images/cart/product_simg1.png HTTP/1.1" 404 1853
+[2019-08-21 17:10:14,658] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:10:15,048] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:10:15,381] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:10:15,543] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:10:15,703] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:10:15,870] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:10:16,039] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:10:16,368] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:10:16,711] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_true.png HTTP/1.1" 200 1935
+[2019-08-21 17:10:17,025] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:21:28,258] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:21:30,218] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5101
+[2019-08-21 17:21:30,243] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 17:22:15,319] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:22:17,130] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5329
+[2019-08-21 17:23:54,174] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:23:56,702] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5320
+[2019-08-21 17:23:56,719] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 17:24:03,267] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5320
+[2019-08-21 17:24:40,584] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5329
+[2019-08-21 17:25:36,096] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5329
+[2019-08-21 17:25:36,114] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 17:25:42,613] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5329
+[2019-08-21 17:29:56,281] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:29:58,095] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5329
+[2019-08-21 17:29:58,118] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 200 3283
+[2019-08-21 17:30:08,748] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5329
+[2019-08-21 17:30:08,769] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 17:32:42,813] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:32:44,047] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5370
+[2019-08-21 17:32:44,070] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 17:32:48,288] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5370
+[2019-08-21 17:33:41,204] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:33:42,741] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5370
+[2019-08-21 17:33:42,756] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 200 3284
+[2019-08-21 17:33:49,652] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5370
+[2019-08-21 17:33:49,666] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 17:34:45,731] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5370
+[2019-08-21 17:34:45,749] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 17:38:47,724] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 17:38:48,488] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5385
+[2019-08-21 17:38:48,667] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/jquery-1.11.3.js HTTP/1.1" 200 284394
+[2019-08-21 17:38:48,671] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/cart.css HTTP/1.1" 200 2840
+[2019-08-21 17:38:48,671] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/base.css HTTP/1.1" 200 311
+[2019-08-21 17:38:48,808] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 200 3284
+[2019-08-21 17:38:48,890] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/color/w_jd5u1YS.jpg HTTP/1.1" 200 23864
+[2019-08-21 17:38:48,907] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 17:39:41,595] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5385
+[2019-08-21 17:39:41,622] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 18:13:43,694] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5385
+[2019-08-21 18:13:43,715] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 18:15:38,269] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/center HTTP/1.1" 200 3674
+[2019-08-21 18:16:19,829] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:16:20,498] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5399
+[2019-08-21 18:16:21,985] [log.py:228] [log:log_response] [WARNING]- Not Found: /cart/queryAll/
+[2019-08-21 18:16:21,986] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /cart/queryAll/ HTTP/1.1" 404 3192
+[2019-08-21 18:16:37,686] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:16:38,959] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5398
+[2019-08-21 18:16:40,387] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5398
+[2019-08-21 18:16:42,066] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 3692
+[2019-08-21 18:17:31,057] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:17:32,336] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5329
+[2019-08-21 18:18:10,233] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:18:11,784] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5398
+[2019-08-21 18:18:11,799] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 18:19:05,373] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5398
+[2019-08-21 18:21:57,135] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5398
+[2019-08-21 18:24:11,095] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:24:12,577] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5401
+[2019-08-21 18:24:12,601] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/base.css HTTP/1.1" 200 311
+[2019-08-21 18:24:12,601] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/css/cart.css HTTP/1.1" 200 2840
+[2019-08-21 18:24:12,615] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/jquery-1.11.3.js HTTP/1.1" 200 284394
+[2019-08-21 18:24:12,619] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 200 3284
+[2019-08-21 18:24:12,632] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/images/cart/product_normal.png HTTP/1.1" 200 15340
+[2019-08-21 18:24:12,634] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/color/w_jd5u1YS.jpg HTTP/1.1" 200 23864
+[2019-08-21 18:27:56,889] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/cart/views.py changed, reloading.
+[2019-08-21 18:27:57,262] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:30:05,842] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:30:15,009] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4095
+[2019-08-21 18:30:15,778] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /goodsdetails/1 HTTP/1.1" 200 6767
+[2019-08-21 18:30:21,929] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/cart/views.py", line 27, in post
+    cart.save()
+AttributeError: 'QuerySet' object has no attribute 'save'
+[2019-08-21 18:30:21,930] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /cart/ HTTP/1.1" 500 83776
+[2019-08-21 18:31:39,025] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:31:42,049] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4095
+[2019-08-21 18:31:42,701] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /goodsdetails/1 HTTP/1.1" 200 6767
+[2019-08-21 18:31:48,566] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /cart/ HTTP/1.1" 302 0
+[2019-08-21 18:31:48,598] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5401
+[2019-08-21 18:31:48,704] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 18:33:11,966] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4095
+[2019-08-21 18:33:12,571] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /goodsdetails/1 HTTP/1.1" 200 6767
+[2019-08-21 18:33:16,895] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /cart/ HTTP/1.1" 302 0
+[2019-08-21 18:33:16,924] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5401
+[2019-08-21 18:34:55,593] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:34:58,822] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5401
+[2019-08-21 18:35:01,065] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4095
+[2019-08-21 18:35:01,660] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /goodsdetails/1 HTTP/1.1" 200 6767
+[2019-08-21 18:35:07,040] [log.py:228] [log:log_response] [ERROR]- Internal Server Error: /cart/
+Traceback (most recent call last):
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/venv/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/qianchunhui/PycharmProjects/untitled3/cart/views.py", line 26, in post
+    cart.save()
+AttributeError: 'QuerySet' object has no attribute 'save'
+[2019-08-21 18:35:07,041] [basehttp.py:154] [basehttp:log_message] [ERROR]- "POST /cart/ HTTP/1.1" 500 83833
+[2019-08-21 18:35:39,323] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:35:44,143] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4095
+[2019-08-21 18:35:45,241] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /goodsdetails/1 HTTP/1.1" 200 6767
+[2019-08-21 18:35:49,898] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /cart/ HTTP/1.1" 302 0
+[2019-08-21 18:35:49,931] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5401
+[2019-08-21 18:36:44,166] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:36:46,323] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4095
+[2019-08-21 18:36:46,889] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /goodsdetails/1 HTTP/1.1" 200 6767
+[2019-08-21 18:36:51,197] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /cart/ HTTP/1.1" 302 0
+[2019-08-21 18:36:51,332] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5401
+[2019-08-21 18:37:27,290] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:37:28,546] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5401
+[2019-08-21 18:37:29,662] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4095
+[2019-08-21 18:37:30,383] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /goodsdetails/1 HTTP/1.1" 200 6767
+[2019-08-21 18:37:35,741] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /cart/ HTTP/1.1" 302 0
+[2019-08-21 18:37:35,816] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5401
+[2019-08-21 18:37:49,752] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/cart/views.py changed, reloading.
+[2019-08-21 18:37:50,082] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:37:50,584] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4095
+[2019-08-21 18:37:54,607] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:37:55,819] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4095
+[2019-08-21 18:37:57,671] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /goodsdetails/1 HTTP/1.1" 200 6767
+[2019-08-21 18:38:01,921] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /cart/ HTTP/1.1" 302 0
+[2019-08-21 18:38:01,956] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5401
+[2019-08-21 18:38:02,022] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 18:39:56,845] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/cart/views.py changed, reloading.
+[2019-08-21 18:39:57,243] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:40:15,738] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:40:20,191] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4095
+[2019-08-21 18:40:20,992] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /goodsdetails/1 HTTP/1.1" 200 6767
+[2019-08-21 18:40:26,273] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /cart/ HTTP/1.1" 302 0
+[2019-08-21 18:40:26,295] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 4705
+[2019-08-21 18:57:00,976] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 18:57:01,975] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 4738
+[2019-08-21 18:57:02,068] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 18:57:41,470] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 4734
+[2019-08-21 18:57:42,516] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4095
+[2019-08-21 19:03:01,640] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /goodsdetails/1 HTTP/1.1" 200 6767
+[2019-08-21 19:03:10,260] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 3692
+[2019-08-21 19:03:13,068] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 4962
+[2019-08-21 19:07:50,195] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5177
+[2019-08-21 19:07:50,215] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 19:08:06,912] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 19:08:08,289] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5165
+[2019-08-21 19:08:09,627] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5165
+[2019-08-21 19:08:59,024] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-21 19:08:59,778] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5167
+[2019-08-21 19:09:07,717] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5167
+[2019-08-21 19:21:08,894] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5167
+[2019-08-21 19:21:08,910] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /media/js/cart.js HTTP/1.1" 304 0
+[2019-08-21 19:21:11,020] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/center HTTP/1.1" 200 3687
+[2019-08-21 19:21:13,797] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/address/ HTTP/1.1" 200 6392
+[2019-08-21 19:21:14,025] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/loadarea/?pid=0 HTTP/1.1" 200 169
+[2019-08-21 19:21:14,042] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/loadarea/?pid=110000 HTTP/1.1" 200 174
+[2019-08-21 19:21:14,102] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/loadarea/?pid=110100 HTTP/1.1" 200 331
+[2019-08-21 19:21:21,935] [basehttp.py:154] [basehttp:log_message] [INFO]- "POST /user/address/ HTTP/1.1" 200 6956
+[2019-08-21 19:21:21,991] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/loadarea/?pid=0 HTTP/1.1" 200 169
+[2019-08-21 19:21:22,007] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/loadarea/?pid=110000 HTTP/1.1" 200 174
+[2019-08-21 19:21:22,067] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/loadarea/?pid=110100 HTTP/1.1" 200 331
+[2019-08-21 19:21:34,829] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4095
+[2019-08-21 19:21:35,899] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/loadarea/?pid=110000 HTTP/1.1" 200 174
+[2019-08-21 19:21:35,912] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/loadarea/?pid=110100 HTTP/1.1" 200 331
+[2019-08-21 19:24:03,130] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /cart/queryAll HTTP/1.1" 200 5167

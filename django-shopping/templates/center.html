@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    用户中心
+{% endblock %}
+
+{% block head %}
+    <script src="/media/js/jquery-1.11.3.js"></script>
+{% endblock %}
+
+{% block main %}
+    {% csrf_token %}
+    <ul class="nav nav-pills nav-stacked">
+        <li role="presentation" class="active">[{{ userSession.uname }}]的个人主页</li>
+        <li role="presentation" id="logout"><a href="/user/logout/">退出登录</a></li>
+        <li role="presentation"><a href="#">我的订单</a></li>
+        <li role="presentation"><a href="/user/address/">地址管理</a></li>
+        <li role="presentation"><a href="/">回到首页</a></li>
+    </ul>
+    <div class="alert alert-success" role="alert">
+        qch
+        <div>
+            <a>
+                修改个人信息
+            </a>
+        </div>
+        <div>
+            绑定邮箱:1227588096
+        </div>
+    </div>
+    <div class="alert alert-info" role="alert">支付订单</div>
+    <div class="alert alert-warning" role="alert">待收货订单</div>
+
+{% endblock %}
+
+{% block footer %}
+    <script>
+        $('#logout').click(function () {
+            $.ajax({
+                type: 'post',
+                url: 'user/logout/',
+                data: 'csrfmiddlewaretoken=' + $('input[name="csrfmiddlewaretoken"]').val(),
+                success: function (data) {
+                    if (data.deflag) {
+                        window.location.href = '/user/login'
+                    }
+                }
+            })
+        })
+    </script>
+{% endblock %}
+

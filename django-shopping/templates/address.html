@@ -1,0 +1,159 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    地址管理
+{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="/media/css/address.css">
+    <script src="/media/js/jquery-1.11.3.js"></script>
+    <script>
+        $(function () {
+            loadprovince()
+        });
+
+        function loadprovince() {
+            loadarea('province', 0, loadcity)
+        }
+
+        function loadcity() {
+            loadarea('city', $('#province').val(), loadtown)
+        }
+
+        function loadtown() {
+            loadarea('town', $('#city').val())
+        }
+
+        function loadarea(selectId, pid, nextload) {
+            $.get('/user/loadarea/', {'pid': pid}, function (result) {
+
+                //将json格式字符串转换成json对象数组
+                var arealist = JSON.parse(result.jarealist);
+
+                //遍历数组
+                for (var i = 0; i < arealist.length; i++) {
+                    //获取每一个area的json对象
+                    var area = arealist[i];
+
+                    $('#' + selectId).append("<option value=" + area.pk + ">" + area.fields.areaname + "</option>")
+                }
+                //判断是否需要加载下一级菜单
+                if (nextload!=null ){
+                    nextload();
+                }
+            })
+        }
+
+
+    </script>
+{% endblock %}
+
+{% block main %}
+    {% csrf_token %}
+    <ul class="nav nav-pills nav-stacked" id="driver">
+        <li role="presentation" class="active"><p>[{{ userSession.uname }}]的个人中心</p></li>
+        <li role="presentation"><a href="#">个人信息</a></li>
+        <li role="presentation"><a href="#">地址管理</a></li>
+        <li role="presentation"><a href="#">快捷支付</a></li>
+        <li role="presentation"><a href="/">回到首页</a></li>
+    </ul>
+
+    <ul class="nav nav-pills nav-stacked">
+        <li role="presentation" class="active"><p>我的交易</p></li>
+        <li role="presentation"><a href="#">订单管理</a></li>
+        <li role="presentation"><a href="#">退款售后</a></li>
+        <li role="presentation"><a href="#">平价商品</a></li>
+    </ul>
+
+    <ul class="nav nav-pills nav-stacked">
+        <li role="presentation" class="active"><p>我的资产</p></li>
+        <li role="presentation"><a href="#">我的积分</a></li>
+        <li role="presentation"><a href="#">优惠券</a></li>
+        <li role="presentation"><a href="#">红包</a></li>
+        <li role="presentation"><a href="#">账户余额</a></li>
+        <li role="presentation"><a href="#">账单明细</a></li>
+    </ul>
+
+    <div id="address">
+
+        <div style="width: 400px; height: 250px" >
+            <h2>地址管理</h2>
+            {% for addr in addrlist %}
+            <div id="addrAdmin">
+                {% if addr.isdefault == True  %}
+                <div>
+                    默认地址
+                </div>
+                {% endif %}
+
+                <div>
+                    {{ addr.aname }}
+                </div>
+
+
+                <div>
+                    {{ addr.aphone }}
+                </div>
+
+                <div>
+                    {{ addr.addr }}
+                </div>
+
+                <button>编辑</button>
+
+                <button>删除</button>
+
+                <br>
+                <br>
+
+            </div>
+            {% endfor %}
+        </div>
+
+        <div>
+            <h2>新增地址</h2>
+            <form id="frm" method="post">
+                {% csrf_token %}
+                收货人<input class="form-control" id="exampleInputEmail1" placeholder="收货人" name="aname">
+                电话号码<input class="form-control" id="exampleInputEmail1" placeholder="电话号码" name="aphone">
+                省<select id="province" name="province" onchange="loadcity()">
+
+                </select>
+
+                市<select id="city" name="city" onchange="loadtown()">
+
+                </select>
+
+                县/区<select id="town" name="town">
+
+                </select>
+                <br>
+                详细地址<input class="form-control" onfocus="fillContent()" id="addr" placeholder="详细地址" name="addr">
+                <a onclick="$('#frm').submit()">保存</a>
+                <a >取消</a>
+            </form>
+        </div>
+
+    </div>
+{% endblock %}
+
+{% block footer %}
+
+    <script>
+        function fillContent() {
+            //获取三级联动菜单选中内容
+            var pro=$('#province option:selected').text();
+            var city=$('#city option:selected').text();
+            var town=$('#town option:selected').text();
+
+            //将菜单地址存放在地址栏中
+            var addr=pro+" "+city+' '+town
+            $('#addr').val(addr)
+        }
+
+    </script>
+
+{% endblock %}
+
+
+

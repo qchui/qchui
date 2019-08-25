@@ -1,0 +1,16 @@
+#address {
+    position: relative;
+    left: 300px;
+    bottom: 573px;
+}
+
+
+.nav nav-pills nav-stacked {
+    width: 100px;
+}
+
+#area{
+    width: 100px;
+    margin-top: 10px;
+}
+

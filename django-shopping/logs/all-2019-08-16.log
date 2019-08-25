@@ -1,0 +1,92 @@
+[2019-08-16 21:11:20,419] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-16 21:11:31,572] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 162276
+[2019-08-16 21:11:32,274] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleUserLoginGiant/userlogin.js
+[2019-08-16 21:11:32,275] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleUserLoginGiant/userlogin.js HTTP/1.1" 404 2291
+[2019-08-16 21:11:32,307] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleSearchGiant/searchGiant.js
+[2019-08-16 21:11:32,308] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleGridGiant/modulegrid.js
+[2019-08-16 21:11:32,309] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleSearchGiant/searchGiant.js HTTP/1.1" 404 2288
+[2019-08-16 21:11:32,309] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleGridGiant/modulegrid.js HTTP/1.1" 404 2279
+[2019-08-16 21:11:32,332] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleNavGiant/menu.js
+[2019-08-16 21:11:32,332] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleNavGiant/menu.js HTTP/1.1" 404 2258
+[2019-08-16 21:11:32,372] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleCommonClsGiant/commoncls.js
+[2019-08-16 21:11:32,373] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleCommonClsGiant/commoncls.js HTTP/1.1" 404 2291
+[2019-08-16 21:11:32,383] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleSlideGiant/commonSlide.js
+[2019-08-16 21:11:32,383] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleSlideGiant/commonSlide.js HTTP/1.1" 404 2285
+[2019-08-16 21:11:32,588] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleProductListGiant/productlist.js
+[2019-08-16 21:11:32,589] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleProductListGiant/productlist.js HTTP/1.1" 404 2303
+[2019-08-16 21:11:32,908] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/imgbg.png
+[2019-08-16 21:11:32,913] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/imgbg.png HTTP/1.1" 404 2198
+[2019-08-16 21:11:32,918] [log.py:228] [log:log_response] [WARNING]- Not Found: /index.php
+[2019-08-16 21:11:32,918] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /index.php?c=Front/Count&Referer=&Width=1366&Height=768&Page=/ HTTP/1.1" 404 2245
+[2019-08-16 21:11:32,920] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/loading2.gif
+[2019-08-16 21:11:32,921] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/loading2.gif HTTP/1.1" 404 2207
+[2019-08-16 21:11:32,934] [log.py:228] [log:log_response] [WARNING]- Not Found: /share/floaters.js
+[2019-08-16 21:11:32,935] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /share/floaters.js HTTP/1.1" 404 2201
+[2019-08-16 21:11:33,325] [log.py:228] [log:log_response] [WARNING]- Not Found: /share/jquery-ui-css/ui-lightness/jquery-ui-1.10.2.custom.min.css
+[2019-08-16 21:11:33,326] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /share/jquery-ui-css/ui-lightness/jquery-ui-1.10.2.custom.min.css HTTP/1.1" 404 2342
+[2019-08-16 21:11:33,336] [log.py:228] [log:log_response] [WARNING]- Not Found: /scripts/bootstrap/bootbox.min.js
+[2019-08-16 21:11:33,337] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /scripts/bootstrap/bootbox.min.js HTTP/1.1" 404 2246
+[2019-08-16 21:11:33,345] [log.py:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2019-08-16 21:11:33,345] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2183
+[2019-08-16 21:49:50,000] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-16 21:49:54,533] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 162276
+[2019-08-16 21:49:54,927] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleUserLoginGiant/userlogin.js
+[2019-08-16 21:49:54,928] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleUserLoginGiant/userlogin.js HTTP/1.1" 404 2291
+[2019-08-16 21:49:54,956] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleGridGiant/modulegrid.js
+[2019-08-16 21:49:54,958] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleSearchGiant/searchGiant.js
+[2019-08-16 21:49:54,958] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleGridGiant/modulegrid.js HTTP/1.1" 404 2279
+[2019-08-16 21:49:54,958] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleSearchGiant/searchGiant.js HTTP/1.1" 404 2288
+[2019-08-16 21:49:54,980] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleNavGiant/menu.js
+[2019-08-16 21:49:54,981] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleNavGiant/menu.js HTTP/1.1" 404 2258
+[2019-08-16 21:49:55,020] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleCommonClsGiant/commoncls.js
+[2019-08-16 21:49:55,021] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleCommonClsGiant/commoncls.js HTTP/1.1" 404 2291
+[2019-08-16 21:49:55,028] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleSlideGiant/commonSlide.js
+[2019-08-16 21:49:55,029] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleSlideGiant/commonSlide.js HTTP/1.1" 404 2285
+[2019-08-16 21:49:55,153] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleProductListGiant/productlist.js
+[2019-08-16 21:49:55,153] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleProductListGiant/productlist.js HTTP/1.1" 404 2303
+[2019-08-16 21:49:55,469] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/imgbg.png
+[2019-08-16 21:49:55,478] [log.py:228] [log:log_response] [WARNING]- Not Found: /index.php
+[2019-08-16 21:49:55,486] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/loading2.gif
+[2019-08-16 21:49:55,486] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/imgbg.png HTTP/1.1" 404 2198
+[2019-08-16 21:49:55,487] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/loading2.gif HTTP/1.1" 404 2207
+[2019-08-16 21:49:55,492] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /index.php?c=Front/Count&Referer=&Width=1366&Height=768&Page=/ HTTP/1.1" 404 2245
+[2019-08-16 21:49:55,512] [log.py:228] [log:log_response] [WARNING]- Not Found: /share/floaters.js
+[2019-08-16 21:49:55,512] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /share/floaters.js HTTP/1.1" 404 2201
+[2019-08-16 21:49:55,814] [log.py:228] [log:log_response] [WARNING]- Not Found: /share/jquery-ui-css/ui-lightness/jquery-ui-1.10.2.custom.min.css
+[2019-08-16 21:49:55,814] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /share/jquery-ui-css/ui-lightness/jquery-ui-1.10.2.custom.min.css HTTP/1.1" 404 2342
+[2019-08-16 21:49:55,826] [log.py:228] [log:log_response] [WARNING]- Not Found: /scripts/bootstrap/bootbox.min.js
+[2019-08-16 21:49:55,826] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /scripts/bootstrap/bootbox.min.js HTTP/1.1" 404 2246
+[2019-08-16 21:49:57,655] [basehttp.py:154] [basehttp:log_message] [INFO]- "GET /user/register HTTP/1.1" 200 76779
+[2019-08-16 21:49:57,698] [log.py:228] [log:log_response] [WARNING]- Not Found: /index.php
+[2019-08-16 21:49:57,699] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /index.php?c=validatecode&sleepsecond=2 HTTP/1.1" 404 2210
+[2019-08-16 21:49:57,934] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleUserLoginGiant/userlogin.js
+[2019-08-16 21:49:57,935] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleUserLoginGiant/userlogin.js HTTP/1.1" 404 2291
+[2019-08-16 21:49:57,944] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleGridGiant/modulegrid.js
+[2019-08-16 21:49:57,945] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleGridGiant/modulegrid.js HTTP/1.1" 404 2279
+[2019-08-16 21:49:57,959] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleNavGiant/menu.js
+[2019-08-16 21:49:57,962] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleSearchGiant/searchGiant.js
+[2019-08-16 21:49:57,962] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleNavGiant/menu.js HTTP/1.1" 404 2258
+[2019-08-16 21:49:57,963] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleSearchGiant/searchGiant.js HTTP/1.1" 404 2288
+[2019-08-16 21:49:58,014] [log.py:228] [log:log_response] [WARNING]- Not Found: /share/global.js
+[2019-08-16 21:49:58,015] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /share/global.js HTTP/1.1" 404 2195
+[2019-08-16 21:49:58,020] [log.py:228] [log:log_response] [WARNING]- Not Found: /skinp/modules/ModuleUserRegGiant/userregister.js
+[2019-08-16 21:49:58,021] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /skinp/modules/ModuleUserRegGiant/userregister.js HTTP/1.1" 404 2294
+[2019-08-16 21:49:58,106] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/imgbg.png
+[2019-08-16 21:49:58,107] [log.py:228] [log:log_response] [WARNING]- Not Found: /images/loading2.gif
+[2019-08-16 21:49:58,111] [log.py:228] [log:log_response] [WARNING]- Not Found: /index.php
+[2019-08-16 21:49:58,112] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/loading2.gif HTTP/1.1" 404 2207
+[2019-08-16 21:49:58,113] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /index.php?c=Front/Count&Referer=http%3A//127.0.0.1%3A8000/&Width=1366&Height=768&Page=/user/register HTTP/1.1" 404 2284
+[2019-08-16 21:49:58,114] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /images/imgbg.png HTTP/1.1" 404 2198
+[2019-08-16 21:49:58,117] [log.py:228] [log:log_response] [WARNING]- Not Found: /share/floaters.js
+[2019-08-16 21:49:58,118] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /share/floaters.js HTTP/1.1" 404 2201
+[2019-08-16 21:49:58,341] [log.py:228] [log:log_response] [WARNING]- Not Found: /share/jquery-ui-css/ui-lightness/jquery-ui-1.10.2.custom.min.css
+[2019-08-16 21:49:58,347] [log.py:228] [log:log_response] [WARNING]- Not Found: /scripts/bootstrap/bootbox.min.js
+[2019-08-16 21:49:58,348] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /share/jquery-ui-css/ui-lightness/jquery-ui-1.10.2.custom.min.css HTTP/1.1" 404 2342
+[2019-08-16 21:49:58,348] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /scripts/bootstrap/bootbox.min.js HTTP/1.1" 404 2246
+[2019-08-16 21:50:00,872] [log.py:228] [log:log_response] [WARNING]- Not Found: /Content/454168.html
+[2019-08-16 21:50:00,873] [basehttp.py:154] [basehttp:log_message] [WARNING]- "GET /Content/454168.html HTTP/1.1" 404 2207
+[2019-08-16 21:51:27,835] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/untitled3/settings.py changed, reloading.
+[2019-08-16 21:51:28,310] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-16 21:51:32,932] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2019-08-16 22:13:58,278] [autoreload.py:217] [autoreload:trigger_reload] [INFO]- /home/qianchunhui/PycharmProjects/untitled3/untitled3/settings.py changed, reloading.
+[2019-08-16 22:14:02,064] [autoreload.py:597] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

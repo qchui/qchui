@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    购物车
+{% endblock %}
+
+{% block head %}
+  <link rel="stylesheet" href="/media/css/base.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/cart.css" type="text/css">
+  <script src="/media/js/jquery-1.11.3.js"></script>
+  <script src="/media/js/cart.js"></script>
+{% endblock %}
+
+{% block main %}
+    	<div id="main">
+		 <!--购物车顶部标题-->
+		 <h2>
+			购物车
+			<p>
+				<span>
+					已选择：
+					<b class="total-num">0</b>
+					件商品
+				</span>
+				<span>
+					共计：
+					<b class="total-price">0.00</b>
+					元
+				</span>
+			</p>
+		 </h2>
+		 <!--购物车商品展示-->
+		 <div class="info">
+			<!--顶部工具栏-->
+			<div class="type">
+				<div class="check">
+					<img src="/media/images/cart/product_normal.png" class="checkAll">
+					全选
+				</div>
+				<div class="gname">商品</div>
+				<div class="gprice">单价（元）</div>
+				<div class="gcount">数量</div>
+				<div class="gsum">金额</div>
+				<div class="action">操作</div>
+
+			</div>
+			<!--商品展示-->
+			<div class="content">
+				<!--商品记录-->
+                {% for cart in cartlist %}
+				<div class="item">
+					<div class="check">
+						<img src="/media/images/cart/product_normal.png" class="checkItem">
+
+					</div>
+
+					<div class="gname">
+						<img src="/media/{{ cart.getColor.colorurl }}">
+						<p>{{ cart.getGoods.gdesc }}</p>
+						<p>{{ cart.getSize.sname }}</p>
+						<p>{{ cart.getColor.colorname }}</p>
+					</div>
+					<div class="gprice">
+						<h3>优惠价</h3>
+						<p>￥ {{ cart.getGoods.price }}</p>
+					</div>
+					<div class="gcount">
+						<!--阻止超链接默认事件-->
+						<a href="javascript:void(0)" class="minus">-</a>
+						<input type="text" value="1">
+						<a href="javascript:void(0)" class="add">+</a>
+
+					</div>
+					<div class="gsum">￥ {{ cart.getGoods.price }} </div>
+                    <a href='javascript:check()' id="sumbit">结算</a>
+					<div class="action">移除</div>
+
+
+				</div>
+                 {% endfor %}
+
+			</div>
+
+		 </div>
+
+
+        <form>
+            {% csrf_token %}
+            <input type="hidden" id="goodslist" name="goodslist">
+
+
+        </form>
+
+	</div>
+	<div id="bottom"></div>
+{% endblock %}
+
+{% block footer %}
+    <script>
+        $('#submit').click(function (event){
+
+        })
+
+    </script>
+{% endblock %}
